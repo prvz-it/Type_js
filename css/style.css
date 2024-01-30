@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 24px;
+}
+
+.type {
+    color: crimson;
+    position: relative;
+}
+
+.type::after {
+    content:  "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: teal;
+    top: 0;
+    right: -4px;
+}
